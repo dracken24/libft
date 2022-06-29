@@ -42,7 +42,7 @@ SRCS 		= $(MATH)ft_ultimate_range.c $(MATH)ft_putnbr.c $(MATH)ft_range.c $(MATH)
 			$(MEM_M)ft_memcpy.c \
 			$(IS)ft_isalpha.c $(IS)ft_isdigit.c $(IS)ft_isalnum.c $(IS)ft_isascii.c \
 			$(IS)ft_isprint.c \
-			$(ATOI)ft_atoi.c $(ATOI)ft_itoa.c \
+			$(ATOI)ft_atoi.c $(ATOI)ft_itoa.c $(ATOI)ft_atoi_base.c \
 
 
 OBJ			= $(SRCS:%c=%o)
