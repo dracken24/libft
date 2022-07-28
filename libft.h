@@ -6,7 +6,7 @@
 /*   By: nadesjar <dracken24@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 14:00:19 by nadesjar          #+#    #+#             */
-/*   Updated: 2022/06/29 17:50:26 by nadesjar         ###   ########.fr       */
+/*   Updated: 2022/07/28 16:17:15 by nadesjar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ t_list		*ft_lstlast(t_list *lst);
 long int	ft_atoi(const char *str);
 int			ft_memcmp(const void *s1, const void *s2, size_t len);
 int			ft_strncmp(char *s1, char *s2, size_t n);
-int 		ft_atoi_base(char *str, char *base);
+int			ft_atoi_base(char *str, char *base);
 int			ft_array_len(int *nbrs);
 int			ft_lstsize(t_list *lst);
 int			ft_p_or_imp(int nbr);
@@ -52,6 +52,8 @@ int			ft_isascii(int c);
 int			ft_isprint(int c);
 int			ft_toupper(int c);
 int			ft_tolower(int c);
+
+bool		ft_strchr_bool(const char *str, int c);
 
 char		*ft_strnstr(const char *str, const char *to_find, size_t len);
 char		*ft_strmapi(const char *str, char (*f)(unsigned int, char));
