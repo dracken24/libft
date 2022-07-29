@@ -6,7 +6,7 @@
 /*   By: nadesjar <dracken24@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 14:00:19 by nadesjar          #+#    #+#             */
-/*   Updated: 2022/07/28 21:18:56 by nadesjar         ###   ########.fr       */
+/*   Updated: 2022/07/28 21:27:43 by nadesjar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ void		*ft_memmove(void *dest, const void *src, size_t len);
 void		*ft_memcpy(void *dest, const void *src, size_t len);
 void		ft_lstdelone(t_list *lst, void (*del)(void *));
 void		ft_lstclear(t_list **lst, void (*del)(void *));
-void		*ft_memchr(const void *src, int c, size_t n);
+void		*ft_memchr(const void *src, int c, size_t len);
 void		ft_lstadd_front(t_list **lst, t_list *new);
 void		ft_lstadd_back(t_list **lst, t_list *new);
 void		ft_lstiter(t_list *lst, void (*f)(void *));

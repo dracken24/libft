@@ -1,155 +1,100 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/dracken24/Desktop/prog/libft'
+gcc -Wall -Werror -Wextra   -c -o math/ft_ultimate_range.o math/ft_ultimate_range.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_putnbr.o math/ft_putnbr.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_range.o math/ft_range.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_swap.o math/ft_swap.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_rev_int_tab.o math/ft_rev_int_tab.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_nbrlen.o math/ft_nbrlen.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_putnbr_fd.o math/ft_putnbr_fd.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_p_or_imp.o math/ft_p_or_imp.c
+gcc -Wall -Werror -Wextra   -c -o math/ft_array_len.o math/ft_array_len.c
+gcc -Wall -Werror -Wextra   -c -o mem_alloc/ft_bzero.o mem_alloc/ft_bzero.c
+gcc -Wall -Werror -Wextra   -c -o mem_alloc/ft_calloc.o mem_alloc/ft_calloc.c
+gcc -Wall -Werror -Wextra   -c -o mem_alloc/free_ptr.o mem_alloc/free_ptr.c
  
-make: Circular Makefile.o <- Makefile dependency dropped.
-
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_ultimate_range.c -o math/ft_ultimate_range.c.o
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstmap.o lst/ft_lstmap.c
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstiter.o lst/ft_lstiter.c
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstclear.o lst/ft_lstclear.c
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstdelone.o lst/ft_lstdelone.c
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstadd_back.o lst/ft_lstadd_back.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_putnbr.c -o math/ft_putnbr.c.o
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstlast.o lst/ft_lstlast.c
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstsize.o lst/ft_lstsize.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_range.c -o math/ft_range.c.o
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstadd_front.o lst/ft_lstadd_front.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_swap.c -o math/ft_swap.c.o
+gcc -Wall -Werror -Wextra   -c -o lst/ft_lstnew.o lst/ft_lstnew.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_rev_int_tab.c -o math/ft_rev_int_tab.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strlen.o str/ft_strlen.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_nbrlen.c -o math/ft_nbrlen.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strlcpy.o str/ft_strlcpy.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_putnbr_fd.c -o math/ft_putnbr_fd.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strlcat.o str/ft_strlcat.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_p_or_imp.c -o math/ft_p_or_imp.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strrchr.o str/ft_strrchr.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c math/ft_array_len.c -o math/ft_array_len.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strncmp.o str/ft_strncmp.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_alloc/ft_bzero.c -o mem_alloc/ft_bzero.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strnstr.o str/ft_strnstr.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_alloc/ft_calloc.c -o mem_alloc/ft_calloc.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strtrim.o str/ft_strtrim.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_alloc/free_ptr.c -o mem_alloc/free_ptr.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strmapi.o str/ft_strmapi.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstmap.c -o lst/ft_lstmap.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_striteri.o str/ft_striteri.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstiter.c -o lst/ft_lstiter.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strdup.o str/ft_strdup.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstclear.c -o lst/ft_lstclear.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_substr.o str/ft_substr.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstdelone.c -o lst/ft_lstdelone.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strjoin.o str/ft_strjoin.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstadd_back.c -o lst/ft_lstadd_back.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strcat.o str/ft_strcat.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstlast.c -o lst/ft_lstlast.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_putchar_fd.o str/ft_putchar_fd.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstsize.c -o lst/ft_lstsize.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_putstr_fd.o str/ft_putstr_fd.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstadd_front.c -o lst/ft_lstadd_front.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_toupper.o str/ft_toupper.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c lst/ft_lstnew.c -o lst/ft_lstnew.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_tolower.o str/ft_tolower.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strlen.c -o str/ft_strlen.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_putendl_fd.o str/ft_putendl_fd.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strlcpy.c -o str/ft_strlcpy.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strchr.o str/ft_strchr.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strlcat.c -o str/ft_strlcat.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_split.o str/ft_split.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strrchr.c -o str/ft_strrchr.c.o
+gcc -Wall -Werror -Wextra   -c -o str/ft_strchr_bool.o str/ft_strchr_bool.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strncmp.c -o str/ft_strncmp.c.o
+gcc -Wall -Werror -Wextra   -c -o mem_move/ft_memset.o mem_move/ft_memset.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strnstr.c -o str/ft_strnstr.c.o
+gcc -Wall -Werror -Wextra   -c -o mem_move/ft_memmove.o mem_move/ft_memmove.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strtrim.c -o str/ft_strtrim.c.o
+gcc -Wall -Werror -Wextra   -c -o mem_move/ft_memcmp.o mem_move/ft_memcmp.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strmapi.c -o str/ft_strmapi.c.o
+gcc -Wall -Werror -Wextra   -c -o mem_move/ft_memcpy.o mem_move/ft_memcpy.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_striteri.c -o str/ft_striteri.c.o
+gcc -Wall -Werror -Wextra   -c -o is/ft_isalpha.o is/ft_isalpha.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strdup.c -o str/ft_strdup.c.o
+gcc -Wall -Werror -Wextra   -c -o is/ft_isdigit.o is/ft_isdigit.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_substr.c -o str/ft_substr.c.o
+gcc -Wall -Werror -Wextra   -c -o is/ft_isalnum.o is/ft_isalnum.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strjoin.c -o str/ft_strjoin.c.o
+gcc -Wall -Werror -Wextra   -c -o is/ft_isascii.o is/ft_isascii.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strcat.c -o str/ft_strcat.c.o
+gcc -Wall -Werror -Wextra   -c -o is/ft_isprint.o is/ft_isprint.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_putchar_fd.c -o str/ft_putchar_fd.c.o
+gcc -Wall -Werror -Wextra   -c -o atoitoa/ft_atoi.o atoitoa/ft_atoi.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_putstr_fd.c -o str/ft_putstr_fd.c.o
+gcc -Wall -Werror -Wextra   -c -o atoitoa/ft_itoa.o atoitoa/ft_itoa.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_toupper.c -o str/ft_toupper.c.o
+gcc -Wall -Werror -Wextra   -c -o atoitoa/ft_atoi_base.o atoitoa/ft_atoi_base.c
  
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_tolower.c -o str/ft_tolower.c.o
- 
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_putendl_fd.c -o str/ft_putendl_fd.c.o
- 
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_strchr.c -o str/ft_strchr.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c str/ft_split.c -o str/ft_split.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_move/ft_memset.c -o mem_move/ft_memset.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_move/ft_memmove.c -o mem_move/ft_memmove.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_move/ft_memcmp.c -o mem_move/ft_memcmp.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c mem_move/ft_memcpy.c -o mem_move/ft_memcpy.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c is/ft_isalpha.c -o is/ft_isalpha.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c is/ft_isdigit.c -o is/ft_isdigit.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c is/ft_isalnum.c -o is/ft_isalnum.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c is/ft_isascii.c -o is/ft_isascii.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c is/ft_isprint.c -o is/ft_isprint.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c atoitoa/ft_atoi.c -o atoitoa/ft_atoi.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c atoitoa/ft_itoa.c -o atoitoa/ft_itoa.c.o
-printf "[32m■[37m"
-gcc -Wall -Werror -Wextra -c atoitoa/ft_atoi_base.c -o atoitoa/ft_atoi_base.c.o
 echo [35m"LA LIBFT SE COMPILE COMME UNE GRANDE...""\033[0m"
-ar -rcs libft.a math/ft_ultimate_range.c.o math/ft_putnbr.c.o math/ft_range.c.o math/ft_swap.c.o math/ft_rev_int_tab.c.o math/ft_nbrlen.c.o math/ft_putnbr_fd.c.o math/ft_swap.c.o math/ft_p_or_imp.c.o math/ft_array_len.c.o mem_alloc/ft_bzero.c.o mem_alloc/ft_calloc.c.o mem_alloc/free_ptr.c.o lst/ft_lstmap.c.o lst/ft_lstiter.c.o lst/ft_lstclear.c.o lst/ft_lstdelone.c.o lst/ft_lstadd_back.c.o lst/ft_lstlast.c.o lst/ft_lstsize.c.o lst/ft_lstadd_front.c.o lst/ft_lstnew.c.o str/ft_strlen.c.o str/ft_strlcpy.c.o str/ft_strlcat.c.o str/ft_strrchr.c.o str/ft_strncmp.c.o str/ft_strnstr.c.o str/ft_strtrim.c.o str/ft_strmapi.c.o str/ft_striteri.c.o str/ft_strdup.c.o str/ft_substr.c.o str/ft_strjoin.c.o str/ft_strcat.c.o str/ft_putchar_fd.c.o str/ft_putstr_fd.c.o str/ft_toupper.c.o str/ft_tolower.c.o str/ft_strmapi.c.o str/ft_striteri.c.o str/ft_putendl_fd.c.o str/ft_strchr.c.o str/ft_split.c.o str/ft_split.c.o mem_move/ft_memset.c.o mem_move/ft_memmove.c.o mem_move/ft_memcmp.c.o mem_move/ft_memcpy.c.o is/ft_isalpha.c.o is/ft_isdigit.c.o is/ft_isalnum.c.o is/ft_isascii.c.o is/ft_isprint.c.o atoitoa/ft_atoi.c.o atoitoa/ft_itoa.c.o atoitoa/ft_atoi_base.c.o
+ar -rcs libft.a math/ft_ultimate_range.o math/ft_putnbr.o math/ft_range.o math/ft_swap.o math/ft_rev_int_tab.o math/ft_nbrlen.o math/ft_putnbr_fd.o math/ft_swap.o math/ft_p_or_imp.o math/ft_array_len.o mem_alloc/ft_bzero.o mem_alloc/ft_calloc.o mem_alloc/free_ptr.o lst/ft_lstmap.o lst/ft_lstiter.o lst/ft_lstclear.o lst/ft_lstdelone.o lst/ft_lstadd_back.o lst/ft_lstlast.o lst/ft_lstsize.o lst/ft_lstadd_front.o lst/ft_lstnew.o str/ft_strlen.o str/ft_strlcpy.o str/ft_strlcat.o str/ft_strrchr.o str/ft_strncmp.o str/ft_strnstr.o str/ft_strtrim.o str/ft_strmapi.o str/ft_striteri.o str/ft_strdup.o str/ft_substr.o str/ft_strjoin.o str/ft_strcat.o str/ft_putchar_fd.o str/ft_putstr_fd.o str/ft_toupper.o str/ft_tolower.o str/ft_strmapi.o str/ft_striteri.o str/ft_putendl_fd.o str/ft_strchr.o str/ft_split.o str/ft_strchr_bool.o mem_move/ft_memset.o mem_move/ft_memmove.o mem_move/ft_memcmp.o mem_move/ft_memcpy.o is/ft_isalpha.o is/ft_isdigit.o is/ft_isalnum.o is/ft_isascii.o is/ft_isprint.o atoitoa/ft_atoi.o atoitoa/ft_itoa.o atoitoa/ft_atoi_base.o
 echo [35m"LIBFT READY FOR NEXT !!!""\033[0m"
+ 
 make: Leaving directory '/home/dracken24/Desktop/prog/libft'
  
