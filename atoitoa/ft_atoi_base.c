@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nadesjar <dracken24@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/29 17:02:10 by nadesjar          #+#    #+#             */
-/*   Updated: 2022/06/29 18:47:46 by nadesjar         ###   ########.fr       */
+/*   Created: 2022/07/29 11:55:46 by nadesjar          #+#    #+#             */
+/*   Updated: 2022/07/29 11:56:20 by nadesjar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 int	check_entry(char *str, char *base)
 {
-	int i;
-	int k;
+	int	i;
+	int	k;
 
 	if (!str || !base)
 		return (0);
@@ -30,10 +30,10 @@ int	check_entry(char *str, char *base)
 	return (1);
 }
 
-int check_before(char *str)
+int	check_before(char *str)
 {
 	int	k;
-	
+
 	k = 0;
 	while ((str[k] >= 9 && str[k] <= 13) || str[k] == 32)
 		k++;
@@ -65,10 +65,10 @@ int	check_in_base(char c, char *base)
 	return (0);
 }
 
-int ft_atoi_base(char *str, char *base)
+int	ft_atoi_base(char *str, char *base)
 {
 	int	i;
-	int ret;
+	int	ret;
 	int	minus;
 	int	divider;
 
@@ -78,7 +78,7 @@ int ft_atoi_base(char *str, char *base)
 	if (i == 0)
 	minus = check_before(str);
 	i = -1;
-	while(str[++i] != '\0' && check_in_base(str[i], base) == 1)
+	while (str[++i] != '\0' && check_in_base(str[i], base) == 1)
 	{
 		ret *= divider;
 		ret += ft_add(str[i], base);
