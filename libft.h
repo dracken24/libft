@@ -6,7 +6,7 @@
 /*   By: nadesjar <dracken24@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 14:00:19 by nadesjar          #+#    #+#             */
-/*   Updated: 2022/07/28 16:17:15 by nadesjar         ###   ########.fr       */
+/*   Updated: 2022/07/28 21:18:56 by nadesjar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,6 @@ void		ft_putstr_fd(char *str, int fd);
 void		ft_putchar_fd(char c, int fd);
 void		ft_putnbr_fd(int nb, int fd);
 void		ft_swap(int *a, int *b);
+void		free_ptr(char **tab);
 
 #endif
